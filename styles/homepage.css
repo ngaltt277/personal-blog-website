@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1 0 auto;
+    margin: 24px 48px;
+}
+
+.posts {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.card {
+    border: 2px solid #f0f0f0;
+    padding: 20px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-content {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.world {
+    color: blue;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.design {
+    color: #28ac00;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.date {
+    color: grey;
+}
+
+.description {
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    padding: 24px;
+    background-color: #f0f0f0;
+}
