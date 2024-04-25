@@ -9,8 +9,7 @@ nav {
     color: grey;
 }
 
-h1 {
-    font-size: 32px;
+nav h1 {
     text-decoration: underline;
 }
 

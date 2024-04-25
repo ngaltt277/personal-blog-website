@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1 0 auto;
+    margin: 24px 48px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.date {
+    color: grey;
+}
+
+footer {
+    text-align: center;
+    padding: 24px;
+    background-color: #f0f0f0;
+}

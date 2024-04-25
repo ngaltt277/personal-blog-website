@@ -1,0 +1,52 @@
+.main {
+    display: grid;
+    grid-template-columns: 65% 30%;
+    gap: 32px;
+}
+
+section {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.box {
+    border: 1px solid #000;
+}
+
+ul, ol {
+    margin-left: 32px;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+
+.buttons button {
+    padding: 8px 12px;
+    border: 1px solid blue;
+    border-radius: 50px;
+    background-color: transparent;
+    color: blue;
+}
+
+button:disabled {
+    border-color: gray;
+    color: gray;
+}
+
+.more-info {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.about {
+    background-color: #f0f0f0;
+    padding: 24px;
+}
+
+.archives, .elsewhere {
+    margin-left: 24px;
+}
