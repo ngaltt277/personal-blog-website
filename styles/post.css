@@ -4,6 +4,12 @@
     gap: 32px;
 }
 
+@media(max-width: 600px) {
+    .main {
+        grid-template-columns: 1fr;
+    }
+}
+
 section {
     margin-top: 16px;
     display: flex;

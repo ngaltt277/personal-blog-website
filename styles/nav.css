@@ -20,9 +20,3 @@ nav h1 {
     height: 20px;
     cursor: pointer;
 }
-
-.search-img {
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-}

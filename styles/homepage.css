@@ -5,6 +5,12 @@
     gap: 24px;
 }
 
+@media(max-width: 600px) {
+    .posts {
+        grid-template-columns: 1fr;
+    }
+}
+
 .card {
     border: 2px solid #f0f0f0;
     padding: 20px;
